@@ -38,20 +38,31 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="bbn-yi-h4r"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aZW-qj-UZf" customClass="GADBannerView">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="c1m-hN-mi6"/>
+                                    <constraint firstAttribute="height" constant="50" id="gga-6z-1XP"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="H6m-8n-5xr" firstAttribute="top" secondItem="neZ-kL-zhA" secondAttribute="bottom" constant="180" id="KNt-OR-9qu"/>
+                            <constraint firstItem="aZW-qj-UZf" firstAttribute="trailing" secondItem="B3r-F0-vNt" secondAttribute="trailing" id="MYw-Nx-oNZ"/>
+                            <constraint firstItem="aZW-qj-UZf" firstAttribute="leading" secondItem="B3r-F0-vNt" secondAttribute="leading" id="NB2-aK-b8K"/>
                             <constraint firstItem="neZ-kL-zhA" firstAttribute="top" secondItem="B3r-F0-vNt" secondAttribute="top" constant="150" id="QLA-8X-1q4"/>
                             <constraint firstItem="H6m-8n-5xr" firstAttribute="centerX" secondItem="tkx-WB-6ZI" secondAttribute="centerX" id="XiT-GE-GzB"/>
                             <constraint firstItem="neZ-kL-zhA" firstAttribute="centerX" secondItem="tkx-WB-6ZI" secondAttribute="centerX" id="jO2-qZ-fey"/>
+                            <constraint firstItem="aZW-qj-UZf" firstAttribute="bottom" secondItem="B3r-F0-vNt" secondAttribute="bottom" id="uP3-VI-cE7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="B3r-F0-vNt"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aef-Yf-lnr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-720" y="26"/>
+            <point key="canvasLocation" x="-720.79999999999995" y="25.637181409295355"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="tne-QT-ifu">
